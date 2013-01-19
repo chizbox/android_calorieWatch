@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/droidx"
+    tools:context=".Search_Food" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/eFsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="13dp"
+                android:layout_y="13dp"
+                android:ems="10" />
+
+            <ListView
+                android:id="@+id/lFoodlist"
+                android:layout_width="match_parent"
+                android:layout_height="464dp"
+                android:layout_x="11dp"
+                android:layout_y="101dp" >
+            </ListView>
+
+            <Button
+                android:id="@+id/bFsearch"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_x="228dp"
+                android:layout_y="12dp"
+                android:text="Search" />
+
+            <TextView
+  				android:layout_width="fill_parent"
+ 			 	android:layout_height="wrap_content"
+  				android:text="@string/hello"
+  />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_x="13dp"
+                android:layout_y="70dp"
+                android:text="FOOD NAME"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_x="169dp"
+                android:layout_y="70dp"
+                android:text="CALORIES"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </AbsoluteLayout>
+
+    </LinearLayout>
+    
+</RelativeLayout>

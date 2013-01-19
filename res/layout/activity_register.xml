@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/droidx"
+    tools:context=".RegisterActivity" 
+    android:orientation="vertical">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="374dp"
+            android:text="Weight (lbs):"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/ivLogo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="26dp"
+            android:layout_y="-4dp"
+            android:src="@drawable/finallogo" />
+
+        <TextView
+            android:id="@+id/tvReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="103dp"
+            android:text="REGISTER"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="172dp"
+            android:text="Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_x="96dp"
+            android:layout_y="172dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="220dp"
+            android:text="Age:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="118dp"
+            android:layout_height="40dp"
+            android:layout_x="96dp"
+            android:layout_y="228dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="274dp"
+            android:text="Gender:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="14dp"
+            android:layout_y="322dp"
+            android:text="Height(ft'inches):"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:layout_x="171dp"
+            android:layout_y="312dp"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:layout_x="130dp"
+            android:layout_y="364dp"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/bSubmit"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="81dp"
+            android:layout_y="418dp"
+            android:background="@drawable/purple"
+            android:text="SUBMIT" />
+        
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="97dp"
+        android:layout_y="271dp"
+        android:alwaysDrawnWithCache="false"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="426dp"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    </AbsoluteLayout>
+    
+    </LinearLayout>
+
